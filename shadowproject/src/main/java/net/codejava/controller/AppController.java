@@ -662,7 +662,7 @@ public class AppController {
 					m.setAccess(1);
 				}
 				memRepo.save(m);
-				mv=new ModelAndView("Success");
+				mv=new ModelAndView("success6");
 			
 				return mv;
 			}
